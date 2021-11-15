@@ -22,11 +22,11 @@ public class W3A2b{
         int guess = scanner.nextInt();
 
         if (guess != magicNum){
-            if (magicNum < guess){System.out.println("Ihre Zahl war über der magischen Zahl")}
-            if (magicNum > guess){System.out.println("Ihre Zahl war unter der magischen Zahl")}
+            if (magicNum < guess){System.out.println("Ihre Zahl war über der magischen Zahl");}
+            if (magicNum > guess){System.out.println("Ihre Zahl war unter der magischen Zahl");}
             System.out.println("raten sie die magische Zahl, sie haben einen zweiten Versuch! ");
             guess = scanner.nextInt();
-            
+
             if (guess != magicNum){
                 System.out.println("hahahaha verloren");
             }else{
