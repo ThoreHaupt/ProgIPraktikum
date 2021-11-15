@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class W3A3 {
+public class W3A4 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         
