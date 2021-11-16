@@ -20,7 +20,7 @@ public class W3A2{
         if (guess > limitupper || guess < limitlower){
             System.out.println("Haha sie haben verloren");
         }
-        if (guess < limitupper || guess > limitlower){
+        if (guess < limitupper && guess > limitlower){
             System.out.println("gz das war richtig");
         }
         scanner.close();

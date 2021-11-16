@@ -46,7 +46,7 @@ public class HashMaps {
             }
             if((i+1) == Math.min(s1Array.length, s2Array.length)){
                 break;
-            }else {i++}
+            }else {i++;}
         
     }
 
