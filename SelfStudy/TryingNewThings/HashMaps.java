@@ -31,4 +31,23 @@ public class HashMaps {
         return HashMaps.peopleHash;
     }
 
+    public static String firstString(String s1, String s2){
+
+        //returns the alphabetically higher String
+        int[] s1Array = s1.toCharArray();
+        int[] s2Array = s2.toCharArray();
+        int i = 0;
+        while(s1Array[i] == s2Array[i]){
+            if (s2Array[i] < s1Array[i]{
+                return s2;
+            }
+            if (s1Array[i] < s2Array[i]){
+                return s1;
+            }
+            if((i+1) == Math.min(s1Array.length, s2Array.length)){
+                break;
+            }else {i++}
+        
+    }
+
 }
